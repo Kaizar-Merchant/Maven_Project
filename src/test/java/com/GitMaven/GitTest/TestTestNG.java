@@ -20,7 +20,7 @@ public class TestTestNG {
 	public void Test2()
 	{
 		System.out.println("This is Test1");
-		Assert.assertEquals("Kaizar", "kaizar");
+		Assert.assertEquals("Kaizar", "Kaizar");
 	}
 
 }
