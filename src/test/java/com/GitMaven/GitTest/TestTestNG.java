@@ -22,5 +22,18 @@ public class TestTestNG {
 		System.out.println("This is Test1");
 		Assert.assertEquals("Kaizar", "Kaizar");
 	}
+	
+	
+	@Test(description = "Test3",groups= {"Regression"})
+	public void Test3()
+	{
+		System.out.println("Test3 from TestNGTest : ");
+		Assert.assertEquals("Kaizar", "Kaizar");
+	}
+	@Test(description = "YahooTest")
+	public void Yahoo()
+	{
+		System.out.println("YahooTest");
+	}
 
 }

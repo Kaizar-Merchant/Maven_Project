@@ -6,14 +6,4 @@
       <class name="com.GitMaven.GitTest.TestTestNG"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.GitMaven.GitTest.TestTestNG">
-        <methods>
-          <include name="Test2"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- com.GitMaven.GitTest.TestTestNG -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
